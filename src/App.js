@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+     <FetchDataFromButtonClickUseEffect/>
+
+     {/*<UseStateHookPrevState/>}
+     {/*  <FragmentKeyAttr/>
+      <FragmentsTable/>
+    <LifeCycleMethOrder/>
+    <FormHandling/>
+    <IndexAsKeys/>
+    <ListRendering/>
+    <ConditionalRendering/>
+    <MethAsPropParent/>
+     <BindingEventHandler/>
+     <FuncComp/>
+     <ClassComp/>
+     <WithJSX/>
+     <WithoutJSX/>
+     <UseOfProps name = 'anu' abc='is good'><p>This is children prop</p></UseOfProps>
+     <UseofPropswithCC name='anu'/>
+     <UseofState/>
+     <StateandSetstate/>
+     <DestructuringProps name='anu' nickname1='busybee' nickname2='baby'/>
+     <EventHandlingFC/>
+  <EventHandlingCC/>  */}
     </div>
   );
 }
