@@ -1,25 +1,30 @@
 import React from 'react'
 import ReactDOM  from 'react-dom'
+import './new.css'
 
-import './index.css'
+import App from './App'
 
-import { books } from './New-Beginning/Books'
-import Book from './New-Beginning/Book'
-
-function BookList() {
-   return (
-   <section className='booklist'>
- 
-    {books.map((book)=>{
-        return <Book key={book.id} {...book}/>
-    })}
-   </section>
-   )
+function ReactPractice(){
+     return <App/>
 }
 
+ReactDOM.render(<ReactPractice/>, document.getElementById('root'))
 
-ReactDOM.render(<BookList/>, document.getElementById('root'))
+// import './index.css'
 
+// import { books } from './New-Beginning/Books'
+// import Book from './New-Beginning/Book'
+
+// function BookList() {
+//    return (
+//    <section className='booklist'>
+ 
+//     {books.map((book)=>{
+//         return <Book key={book.id} {...book}/>
+//     })}
+//    </section>
+//    )
+// }
 
 //    const {img, title, author} = props.book
 {/* {books.map((book, index)=>{ */}
