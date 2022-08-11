@@ -1,9 +1,9 @@
-import Example1  from './New-Beginning/useState/Example1'
+import Example2 from "./New-Beginning/useState/Example2";
 
 function App() {
   return (
     <div className='container'> 
-     <Example1/>
+     <Example2/>
     </div>
   );
 }

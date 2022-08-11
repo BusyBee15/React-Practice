@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 
+
+//toggle the titles
 const Example1 = () => {
   const [text, setText] = useState("Random title")
   const handleClick = () => {
