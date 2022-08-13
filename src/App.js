@@ -1,9 +1,9 @@
-import Example3 from "./New-Beginning/useState/Example3";
+import SimpleCounter from "./New-Beginning/useState/SimpleCounter"
 
 function App() {
   return (
     <div className='container'> 
-     <Example3/>
+     <SimpleCounter />
     </div>
   );
 }

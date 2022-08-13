@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+//use state with object
 const Example3 = () => {
     const [person, setPerson] = useState({name:'peter', age:24, message:'random message'})
     const changeMessage = () => {

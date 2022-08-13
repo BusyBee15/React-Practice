@@ -6,7 +6,7 @@ const Example2 = () => {
   const [people, setPeople] = React.useState(data)
 
   const removeItem = (id) => {
-     const newResult = people.filter((person)=>person.id!=id)
+     const newResult = people.filter((person)=>person.id!==id)
      setPeople(newResult)
   }
   return (
