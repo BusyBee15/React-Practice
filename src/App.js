@@ -1,9 +1,9 @@
-import Example3 from "./New-Beginning/useEffect/Example3";
+import Example4 from "./New-Beginning/useEffect/Example4";
 
 function App() {
   return (
     <div className='container'> 
-     <Example3/>
+     <Example4/>
     </div>
   );
 }
