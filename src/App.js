@@ -1,9 +1,9 @@
-import MultipleReturns from "./new beginning/conditional rendering/MultipleReturns"
+import Basics from "./new beginning/forms/Basics"
 
 function App() {
   return (
     <div className='container'> 
-     <MultipleReturns/>
+     <Basics/>
     </div>
   );
 }
