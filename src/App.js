@@ -1,9 +1,9 @@
-import Basics from "./new beginning/forms/Basics"
+import ControlledInputs from "./new beginning/forms/Controlled Inputs";
 
 function App() {
   return (
     <div className='container'> 
-     <Basics/>
+     <ControlledInputs/>
     </div>
   );
 }
