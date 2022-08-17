@@ -1,9 +1,9 @@
-import ControlledInputs from "./new beginning/forms/Controlled Inputs";
+import LittleApp from "./new beginning/forms/LittleApp"; 
 
 function App() {
   return (
     <div className='container'> 
-     <ControlledInputs/>
+     <LittleApp/>
     </div>
   );
 }
