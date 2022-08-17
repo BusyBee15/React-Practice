@@ -1,9 +1,9 @@
-import LittleApp from "./new beginning/forms/LittleApp"; 
+import MultipleInputs from './new beginning/forms/MultipleInputs'
 
 function App() {
   return (
     <div className='container'> 
-     <LittleApp/>
+     <MultipleInputs/>
     </div>
   );
 }
