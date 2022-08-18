@@ -1,9 +1,9 @@
-import UseRefBasics from "./new beginning/useRef/useRefBasics";
+import SetUp from "./new beginning/useReducer";
 
 function App() {
   return (
     <div className='container'> 
-     <UseRefBasics/>
+     <SetUp/>
     </div>
   );
 }
