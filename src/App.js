@@ -1,9 +1,9 @@
-import MultipleInputs from './new beginning/forms/MultipleInputs'
+import UseRefBasics from "./new beginning/useRef/useRefBasics";
 
 function App() {
   return (
     <div className='container'> 
-     <MultipleInputs/>
+     <UseRefBasics/>
     </div>
   );
 }
