@@ -1,9 +1,9 @@
-import SetUp from "./new beginning/useReducer";
+import Propdrilling from "./new beginning/useContext/propdrilling"
 
 function App() {
   return (
     <div className='container'> 
-     <SetUp/>
+     <Propdrilling/>
     </div>
   );
 }
