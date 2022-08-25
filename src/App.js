@@ -1,9 +1,9 @@
-import Propdrilling from "./new beginning/useContext/propdrilling"
+import UseContext from "./new beginning/useContext"
 
 function App() {
   return (
     <div className='container'> 
-     <Propdrilling/>
+     <UseContext/>
     </div>
   );
 }
