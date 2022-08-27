@@ -1,9 +1,9 @@
-import CustomHook from "./new beginning/custom hooks"
+import Example from "./new beginning/prop types"
 
 function App() {
   return (
     <div className='container'> 
-    <CustomHook/>
+    <Example/>
     </div>
   );
 }
